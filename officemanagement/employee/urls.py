@@ -21,4 +21,10 @@ from employee import views as view
 
 urlpatterns = [
    path('' , view.index , name='index'),
+   path('add_employee/' , view.add_employee , name='add_employee'),
+   path('remove_employee/' , view.remove_employee , name='remove_employee'),
+   path('edit_employee/' , view.edit_employee , name='edit_employee'),
+
+
+
 ]
